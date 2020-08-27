@@ -12,9 +12,12 @@ class LandingPage extends Component {
 
   render () {
     return (
-      <div className='landing-page-container'>
-        <header className='showcase' />
+      <div className='landing-container'>
+        <div className='showcase background-tint'>
+          <h1 className='logo'>JOB STATUS</h1>
+        </div>
       </div>
+
     )
   }
 }

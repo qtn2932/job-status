@@ -1,10 +1,21 @@
 .landing-page-container{
+    box-sizing: border-box;
     border: blue solid 1px;
+
 }
+
 .showcase{
-    /* background-image: url('../assets/pexels-picjumbocom-461077.jpg'); */
+    background-image: url('../assets/pexels-picjumbocom-461077.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-color: #211F1F;
+}
+.background-tint{
+    background-color: #4594d4;
+    background-blend-mode: multiply;
+}
+.logo{
+    font-weight: bold;
+    color: white;
+    font-family: serif;
 }
