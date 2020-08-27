@@ -1,0 +1,10 @@
+.landing-page-container{
+    border: blue solid 1px;
+}
+.showcase{
+    /* background-image: url('../assets/pexels-picjumbocom-461077.jpg'); */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: #211F1F;
+}
